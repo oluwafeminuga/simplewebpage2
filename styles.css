@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    padding: o;
+    margin: 0;
+    position: fixed;
+    background-color: chocolate;
+}
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    padding-left: 5px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar ul li{
+    margin-left: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    transition: 0.4s ease-in;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar ul li:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 20px;
+    
+    
+}
+
+.main .para{
+    line-height: 1.5;
+    color: black;
+    margin: 150px;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    
+}
+
+.form{
+    background-color: #825B32;
+    margin: 150px;
+    padding: 50px;
+    border-radius: 25px;
+
+}
+.form h1{
+    font-size: 20px;
+    text-align: center;
+
+}
